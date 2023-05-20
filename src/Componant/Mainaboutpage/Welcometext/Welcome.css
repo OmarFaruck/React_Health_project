@@ -1,0 +1,10 @@
+section#welcome_text h1 {
+    font-family: ui-sans-serif;
+    margin: 20px 10px;
+    color: #0000009e;
+}
+section#welcome_text p {
+    font-family: ui-sans-serif;
+    font-weight: 500;
+    color: #000000bf;
+}

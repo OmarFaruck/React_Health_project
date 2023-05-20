@@ -1,0 +1,55 @@
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+button.btn.btn-primary {
+    color: #fff;
+    background-color: #00D9A5 !important;
+    border-color: transparent;
+}
+button.btn.btn-primary:hover{
+    color: #fff;
+    background-color: #596261 !important;
+    border-color: transparent;
+}
+h1.text-center {
+    margin-top: 20px;
+    color: #0000008c;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    .text-center {
+        margin-top: 25px !important;
+    }
+}
+ 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .text-center {
+        margin-top: 25px;
+    }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+}
+ 
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+}

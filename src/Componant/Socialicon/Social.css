@@ -1,0 +1,12 @@
+section#social_icon svg {
+    margin: 8px;
+    font-size: 30px;
+}
+
+section#social_icon {
+    display: flex;
+}
+
+section#social_icon :hover {
+    color: #00D9A5; 
+}

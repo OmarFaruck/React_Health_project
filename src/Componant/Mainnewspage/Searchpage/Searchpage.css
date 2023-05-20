@@ -1,0 +1,16 @@
+section#Search {
+    margin-top: 20px;
+}
+.main_search { 
+    padding: 15px 24px; 
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #E8EEE4;
+    box-shadow: 0 4px 12px rgba(154, 159, 151, 0.2);
+}
+.main_search h3 {
+    font-family: ui-sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #596261;
+}

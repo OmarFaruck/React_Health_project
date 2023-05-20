@@ -1,0 +1,88 @@
+section#newspage h1 {
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 26px;
+    color: #0000008c;
+    font-family: ui-sans-serif;
+}
+
+section#newspage {
+    background-color: #F5F9F6 !important;
+}
+
+p.texts {
+    width: 100px;
+}
+p.text {
+    width: 100px;
+}
+p.text:last-child {
+    width: 110px;
+}
+img.img-fluid.mx-auto.d-block.personal {
+    border-radius: 50%;
+}
+.btn.btn-dark {
+    color: #fff;
+    background-color: #00D9A5 !important;
+    border-color: transparent;
+}
+.btn.btn-dark:hover {
+    color: #fff;
+    background-color: #596261 !important;
+    border-color: transparent;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    p.text {
+        margin-left: 74px;
+        margin-top: 15px;
+    }
+    .mx-auto.card {
+        padding-bottom: 15px;
+        margin-top: 15px; 
+    }
+    p.texts {
+        text-align: center;
+        width: 100%;
+    }
+}
+ 
+@media only screen and (min-width: 375px) and (max-width: 425px){
+    p.text {
+        margin-left: 74px;
+        margin-top: 15px;
+    }
+    .mx-auto.card {
+        padding-bottom: 15px;
+        margin-top: 15px; 
+    }
+    p.texts {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+ 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  
+    .mx-auto.card {
+        padding-bottom: 15px;
+        margin-top: 15px; 
+    }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .mx-auto.card {
+        margin-top: 15px; 
+        padding-bottom: 15px;
+    }
+}
+ 
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+
+}

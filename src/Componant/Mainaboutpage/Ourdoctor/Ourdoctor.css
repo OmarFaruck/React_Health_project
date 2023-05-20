@@ -1,0 +1,10 @@
+section#Ourdoctor {
+    margin: 30px; 
+}
+section#Ourdoctor h1 {
+    text-align: center;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+    color: #000000a3;
+    padding-bottom: 15px;
+}

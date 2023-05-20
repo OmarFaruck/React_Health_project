@@ -1,0 +1,30 @@
+.page-banner {
+    position: relative;
+    height: 300px;
+    z-index: 10;
+}
+.bg-image {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li.breadcrumb-item a {
+    text-decoration: none;
+    color: #00D9A5 !important;
+    font-size: 20px;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+}
+li.breadcrumb-item.active {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    font-family: ui-sans-serif;
+    font-weight: 600;
+}
+.breadcrumb-dark .breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    content: "/";
+}

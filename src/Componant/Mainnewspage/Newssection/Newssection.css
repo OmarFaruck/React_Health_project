@@ -1,0 +1,10 @@
+section#News_section .card {
+    margin: 15px;
+}
+section#News_section h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: ui-sans-serif;
+    color: #00000099;
+    font-weight: 600;
+}
